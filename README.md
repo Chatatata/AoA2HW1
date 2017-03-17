@@ -1,4 +1,4 @@
-## AoA2HW1
+# AoA2HW1
 Analysis of Algorithms II, Assignment I.
 
 ### Introduction
@@ -99,13 +99,12 @@ Likewise breadth-first search, this approach also possible instructions at first
 This function also propagates an exception in case of failure, however unlike breadth-first search, this would not create performance penalty since the function recursion could be flattened by the compiler.
 
 ### Documentation
-#### Model Types
 
-**Struct Point**: a POCO data structure representing axis and ordinate in two-dimensional coordinate system
+**Struct `Point`**: a POCO data structure representing axis and ordinate in two-dimensional coordinate system
 
-**Struct Brick**: a POCO data structure representing bricks on the puzzle
+**Struct `Brick`**: a POCO data structure representing bricks on the puzzle
 
-**Class MovementInstruction**: a POCO data structure representing machine instructions recognizable by state machine
+**Class `MovementInstruction`**: a POCO data structure representing machine instructions recognizable by state machine
 
 **State Machine**: This class is responsible of controlling the puzzle board. It is instantiated with an brick array, it takes instructions and performs them by dequeueing them in internals. It also interfaces the performed instructions and undone instructions. Therefore, a traceback could be analyzed by checking those functions. State machine halts when invalid (undoable) instruction is given to be performed. After halt, it is not able to run instructions again. A state-machine is _as per_ for step-by-step debugger.
 
