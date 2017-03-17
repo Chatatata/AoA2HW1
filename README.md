@@ -205,7 +205,7 @@ Likewise breadth-first search, a cycle check also would cost as a linear lookup 
 
 ### Running Times
 
-See ![Running Times](https://raw.githubusercontent.com/Chatatata/AoA2HW1/master/analysis.pdf)
+See [Running Times](https://raw.githubusercontent.com/Chatatata/AoA2HW1/master/analysis.pdf)
 
 ### Conclusion
 
