@@ -1,0 +1,43 @@
+#pragma once
+
+#include <string>
+#include <cctype>
+#include <atomic>
+
+typedef uint8_t UInt8;
+typedef uint16_t UInt16;
+typedef uint32_t UInt32;
+typedef uint64_t UInt64;
+typedef uint64_t UInt;
+
+typedef int8_t Int8;
+typedef int16_t Int16;
+typedef int32_t Int32;
+typedef int64_t Int64;
+typedef int64_t Int;
+
+typedef char Char8;
+typedef char16_t Char16;
+typedef char32_t Char32;
+
+typedef std::atomic<Int16> AtomicInt16;
+typedef std::atomic<Int32> AtomicInt32;
+typedef std::atomic<Int64> AtomicInt64;
+typedef std::atomic<Int> AtomicInt;
+
+typedef std::atomic<UInt16> AtomicUInt16;
+typedef std::atomic<UInt32> AtomicUInt32;
+typedef std::atomic<UInt64> AtomicUInt64;
+typedef std::atomic<UInt> AtomicUInt;
+
+typedef std::string String;
+typedef size_t Size;
+typedef bool Boolean;
+typedef std::exception Exception;
+
+typedef float Float32;
+typedef double Float64;
+
+#define protocol struct
+#define convenience
+#define designated
